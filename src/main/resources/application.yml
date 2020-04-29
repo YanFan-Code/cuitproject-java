@@ -1,0 +1,11 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/Employee?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    driverClassName: com.mysql.jdbc.Driver
+    username: root
+    password: root
+mybatis:
+  configuration:
+    mapUnderscoreToCamelCase: true
